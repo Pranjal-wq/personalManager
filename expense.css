@@ -1,0 +1,171 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set a default font for the body */
+    background-color: #f8f9fa; /* Light background color for the body */
+}
+
+/* Ensure anchor tags have no text decoration and bold font */
+a, a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the header */
+header {
+    position: fixed;
+    background: black;
+    color: beige;
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    padding: 0 20px; /* Add some padding for better spacing */
+    z-index: 1000; /* Ensure the header stays on top */
+}
+
+/* Style the logo image */
+.logo img {
+    height: 10vh;
+    max-width: 12vw;
+}
+
+/* Style the container inside the header */
+
+.containers{
+    top:0px;
+}
+.menu {
+    margin-left: 0vw;
+    padding:0px 0px 10px 9px;
+}
+/* Style the navigation list */
+nav ul {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display the list items in a row */
+    list-style: none; /* Remove list bullets/numbers */
+}
+
+/* Style the list items */
+nav ul li {
+    font-size: 20px;
+    margin: 0 20px; /* Adjust margin for horizontal spacing */
+}
+
+/* Style the anchor tags inside list items */
+nav ul li a {
+    color: white;
+}
+
+/* Style the search input */
+.search input {
+    width: 25vw;
+    height: 35px; /* Ensure the input height matches the button */
+    border: 1px solid #ccc; /* Add a border to the input */
+    border-radius: 4px; /* Add slight rounding to the corners */
+    padding: 5px; /* Add some padding inside the input */
+    margin-right: 5px; /* Add some spacing between the input and button */
+}
+
+/* Style the search button */
+.search .btn {
+    height: 35px; /* Ensure the button height matches the input */
+    background-color: #007bff; /* Blue background for the button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Add slight rounding to the corners */
+    padding: 0 10px; /* Add some horizontal padding */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Change button background color on hover */
+.search .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Center the menu vertically within the header */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar styles */
+.navbar {
+    margin-top: 18vh; /* Ensure it appears below the fixed header */
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar .navbar-brand {
+    color: #ffffff !important;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Input group styles */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group-text, .form-control {
+    border-radius: 0.25rem;
+}
+
+.input-group-append .btn {
+    border-radius: 0.25rem;
+}
+
+/* List group styles */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Additional styles for the text and buttons */
+.list-group-item .text-muted {
+    font-size: 0.875rem;
+}
+
+.list-group-item .btn-outline-danger {
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+
+.list-group-item .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+footer{
+    height:10vh;
+    width:100%;
+    background-color: black;
+    color:beige;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+}

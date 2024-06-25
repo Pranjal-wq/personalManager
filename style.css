@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set a default font for the body */
+    background-color: #f8f9fa; /* Light background color for the body */
+}
+
+/* Ensure anchor tags have no text decoration and bold font */
+a, a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the header */
+header {
+    position: fixed;
+    background: black;
+    color: beige;
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    padding: 0 20px; /* Add some padding for better spacing */
+    z-index: 1000; /* Ensure the header stays on top */
+}
+
+/* Style the logo image */
+.logo img {
+    height: 10vh;
+    max-width: 12vw;
+}
+
+/* Style the container inside the header */
+
+.containers{
+    top:0px;
+}
+.menu {
+    margin-left: 0vw;
+    padding:0px 0px 10px 9px;
+}
+/* Style the navigation list */
+nav ul {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display the list items in a row */
+    list-style: none; /* Remove list bullets/numbers */
+}
+
+/* Style the list items */
+nav ul li {
+    font-size: 20px;
+    margin: 0 20px; /* Adjust margin for horizontal spacing */
+}
+
+/* Style the anchor tags inside list items */
+nav ul li a {
+    color: white;
+}
+
+/* Style the search input */
+.search input {
+    width: 25vw;
+    height: 35px; /* Ensure the input height matches the button */
+    border: 1px solid #ccc; /* Add a border to the input */
+    border-radius: 4px; /* Add slight rounding to the corners */
+    padding: 5px; /* Add some padding inside the input */
+    margin-right: 5px; /* Add some spacing between the input and button */
+}
+
+/* Style the search button */
+.search .btn {
+    height: 35px; /* Ensure the button height matches the input */
+    background-color: #007bff; /* Blue background for the button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Add slight rounding to the corners */
+    padding: 0 10px; /* Add some horizontal padding */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Change button background color on hover */
+.search .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Center the menu vertically within the header */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.text-center{
+    color: black;
+    margin:94px 280px -33px;
+    padding:47px 0px 0px 0px;
+    justify-content: center;
+    text-align: center;
+}
+.text-center p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.slider{
+    text-align: center;
+    display: block;
+    overflow:visible;
+    top:0px;
+}
+.slider img{
+    margin:100px;
+    height:66vh;
+    width:69vw;
+    text-align: center;
+    display: inline-block;
+}
+footer{
+    height:10vh;
+    width:100%;
+    background-color: black;
+    color:beige;
+    justify-content: center;
+    text-align: center;
+}
+.bottom{
+    margin:20px;
+}
+.middle{
+    background-color:rgb(163, 192, 216);
+}
+
+.boxes{
+    top:0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+margin:15px;
+}
+.text a{
+    color:black;
+}
+.box1{
+    height:12vh;
+    width:20vw;
+    background-color: rgb(204, 210, 211);
+    font-size: 30px;
+    border:2px solid black;
+    margin:50px;
+    text-align: center;
+    font-weight: 600;
+}
+.box2{
+    height:12vh;
+    width:20vw;
+    background-color: rgb(204, 210, 211);
+    font-size: 30px;
+    border:2px solid black;
+    margin:50px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.box3{
+    height:12vh;
+    width:20vw;
+    background-color: rgb(204, 210, 211);
+    font-size: 30px;
+    border:2px solid black;
+    margin:50px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.contact-info{
+    justify-content: center;
+    text-align: center;
+    padding:25px;
+}
+.contact-body{
+    background-color: aquamarine;
+    height:45vh;
+    width:50vw;
+    border:2px solid black;
+    margin:98px 165px;
+    display: flex;
+    justify-content: center;
+}
+.text-center1{
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin:94px 220px 47px 387px;
+    padding:47px 0px 0px 0px;
+}
+
+    
